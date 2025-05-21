@@ -9,7 +9,7 @@ namespace PracticaPreParcialService
     public class Pago
     {
         public int CodUnicoPago { get; set; }
-        public int MontoTotal { get; set; }
+        public double MontoTotal { get; set; }
         public DateTime FechaDePago { get; set; }
     }
 }
